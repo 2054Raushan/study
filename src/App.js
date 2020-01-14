@@ -59,6 +59,7 @@ class App extends Component {
       <div className="App">
        
                   <h1>STUDENTS SEARCH LIST</h1>
+                  <p>In this project filter used..</p>
                   
                   <SearchBox 
                     placeholder='search students'
