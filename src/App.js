@@ -41,7 +41,7 @@ class App extends Component {
 
   //fetching dynamic content from online json file........
   componentDidMount(){
-    fetch('http://bharatengineering.org/hello.json')
+    fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
       .then(users => this.setState({students: users }));
   }
